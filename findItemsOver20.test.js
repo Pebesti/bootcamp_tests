@@ -35,12 +35,12 @@ var results3 = [
 //TestCase for findItemsOver20 function
 describe('This test is testing the findItemsOver20 function' , function(){
     it('should equal to the result variable' , function(){
-        assert.deepEqual(results, findItemsOver20(itemList, 20));
+        assert.deepEqual(results, findItemsOver20(itemList));
         });
     it('should equal to the result2 variable' , function(){
-        assert.deepEqual(results2, findItemsOver20(itemList2, 20));    
+        assert.deepEqual(results2, findItemsOver20(itemList2));    
     });
     it('should equal to the result3 variable' , function(){
-        assert.deepEqual(results3, findItemsOver20(itemList3, 20));
+        assert.deepEqual(results3, findItemsOver20(itemList3));
        });
 });
