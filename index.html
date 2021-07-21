@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Mocha setup -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mocha/9.0.2/mocha.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mocha/9.0.2/mocha.min.js" charset="utf-8"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/chai/3.5.0/chai.min.js"></script>
+</head>
+<body>
+    <div id="mocha"></div>
+    <script>
+        mocha.setup('bdd');
+        var assert = chai.assert;
+    </script>
+    <!-- Greet Function -->
+    <script src="functions/greet.js" charset="uft-8"></script>
+    <script src="greet.test.js" charset="utf-8"></script>
+   
+    <!-- countAllFromTown function -->
+    <script src="functions/countAllFromTown.js" charset="uft-8"></script>
+    <script src="countAllFromTown.test.js" charset="utf-8"></script>
+    
+    <!-- countAllPaarl function -->
+    <script src="functions/countAllPaarl.js" charset="uft-8"></script>
+    <script src="countAllPaarl.test.js" charset="utf-8"></script>
+    
+    <!-- countRegNumber function -->
+    <script src="functions/countRegNumber.js" charset="uft-8"></script>
+    <script src="countRegNumber.test.js" charset="utf-8"></script>
+    
+    <!-- findItemsOver function -->
+    <script src="functions/findItemsOver.js" charset="uft-8"></script>
+    <script src="findItemsOver.test.js" charset="utf-8"></script>
+    
+    <!-- findItemsOver20 function -->
+    <script src="functions/findItemsOver20.js" charset="uft-8"></script>
+    <script src="findItemsOver20.test.js" charset="utf-8"></script>
+    
+    <!-- fromWhere function -->
+    <script src="functions/fromWhere.js" charset="uft-8"></script>
+    <script src="fromWhere.test.js" charset="utf-8"></script>
+    
+    <!-- isFromBellville function -->
+    <script src="functions/isFromBellville.js" charset="uft-8"></script>
+    <script src="isFromBellville.test.js" charset="utf-8"></script>
+    
+    <!-- isWeekday function -->
+    <script src="functions/isWeekday.js" charset="uft-8"></script>
+    <script src="isWeekday.test.js" charset="utf-8"></script>
+    
+    <!-- mostProfitableDepartment function -->
+    <script src="functions/mostProfitableDepartment.js" charset="uft-8"></script>
+    <script src="mostProfitableDepartment.test.js" charset="utf-8"></script>
+    
+    <!-- regCheck function -->
+    <script src="functions/regCheck.js" charset="uft-8"></script>
+    <script src="regCheck.test.js" charset="utf-8"></script>
+    
+    <!-- totalPhoneBill function -->
+    <script src="functions/totalPhoneBill.js" charset="uft-8"></script>
+    <script src="totalPhoneBill.test.js" charset="utf-8"></script>
+    
+    <!-- transportFee function -->
+    <script src="functions/transportFee.js" charset="uft-8"></script>
+    <script src="transportFee.test.js" charset="utf-8"></script>
+    
+    <!-- yearsAgo function -->
+    <script src="functions/yearsAgo.js" charset="uft-8"></script>
+    <script src="yearsAgo.test.js" charset="utf-8"></script>
+
+    <script>
+        mocha.checkLeaks();
+        mocha.run();
+    </script>
+</body>
+</html>
