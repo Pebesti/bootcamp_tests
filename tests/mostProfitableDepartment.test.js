@@ -1,4 +1,4 @@
-//Arrays
+
 var salesData = [
     {department : 'hardware', sales : 4500, day : 'Monday'},
     {department : 'outdoor', sales : 1500, day : 'Monday'},
@@ -39,12 +39,12 @@ var salesData2 = [
     {department : 'carpentry', sales : 8009, day : 'Wednesday'},
 ];
 
-//TestCase for mostProfitableDepartment function
-describe('This test is testing the countAllFromTown function' , function(){
-    it('should show that the Most profitable department is "electronics"' , function(){
+
+describe('In this test, the function countAllFromTown is being tested' , function(){
+    it('this function should return the most profitable dataset' , function(){
         assert.equal('electronics', mostProfitableDepartment(salesData2), "Most profitable department is 'electronics' for dataset 2");
     });
-    it('should show that the Most profitable department is "outdoor"' , function(){
+    it('this function should return the most profitable dataset' , function(){
         assert.equal('outdoor', mostProfitableDepartment(salesData), "Most profitable department is 'outdoor' for dataset 1");
     });
 });

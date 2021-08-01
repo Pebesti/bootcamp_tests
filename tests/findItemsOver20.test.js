@@ -33,7 +33,7 @@ var results3 = [
     {name : 'apples', qty : 37}
 ];
 //TestCase for findItemsOver20 function
-describe('This test is testing the findItemsOver20 function' , function(){
+describe('Testing the findItemsOver20 function' , function(){
     it('should equal to the result variable' , function(){
         assert.deepEqual(results, findItemsOver20(itemList));
         });

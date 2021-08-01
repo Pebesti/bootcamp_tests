@@ -1,6 +1,6 @@
-//TestCase for transportFee function
-describe('This test is testing the transportFee function' , function(){
-    it('should return "R20" for the argument "morning"' , function(){
+
+describe('This should return transportFee function' , function(){
+    it('should show "R20" for the argument "morning"' , function(){
         assert.equal(transportFee('morning'), 'R20');
     });
     it('should return "R10" for the argument "afternoon"' , function(){
